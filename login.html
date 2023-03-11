@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="login.js"></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <div
+      class="flex flex-col items-center justify-center min-h-screen bg-gray-100"
+    >
+      <div class="w-full max-w-sm p-6 bg-white rounded-md shadow-md">
+        <h2 class="text-2xl font-bold text-center mb-4">Log In</h2>
+        <form>
+          <div class="mb-4">
+            <input
+              class="appearance-none block w-full px-4 py-2 border border-gray-300 rounded-md placeholder-gray-500 focus:outline-none focus:border-blue-500"
+              type="email"
+              placeholder="Email"
+              id="email"
+            />
+          </div>
+          <div class="mb-4">
+            <input
+              class="appearance-none block w-full px-4 py-2 border border-gray-300 rounded-md placeholder-gray-500 focus:outline-none focus:border-blue-500"
+              type="password"
+              placeholder="Password"
+              id="password"
+            />
+          </div>
+          <div class="mb-4">
+            <button
+              class="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+              id="login-btn"
+            >
+              Log In
+            </button>
+          </div>
+        </form>
+        <div class="text-gray-500 text-center">
+          <span>Don't have an account?</span>
+          <a
+            href="signup.html"
+            class="text-blue-500 hover:text-blue-700 font-bold"
+            >Sign up</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
